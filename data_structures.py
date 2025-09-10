@@ -203,8 +203,8 @@ class BinaryTreeNode:
 #
 
 class RBNode:
-    def __init__(self, val) -> None:
-        self.color = False
+    def __init__(self, val, color=True) -> None:
+        self.color = color
         self.parent = None
         self.left = None
         self.right = None
